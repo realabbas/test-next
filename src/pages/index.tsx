@@ -39,7 +39,7 @@ function Home() {
       onError = {() => {}}
       onSuccess = {() => {}}
       verifications = {['japanese-resident-card', 'drivingLicense']}
-      token = {token}
+      token = {token ?? ""}
       disclaimer='I provide my consent to share my details with Hudini'
       environment={"development"}
     />
